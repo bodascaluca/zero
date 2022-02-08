@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background{
+  height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center; /* Nel momento i cui si decide di visualizzare su uno schermo più piccolo possiamo vedere la parte centrale dello sfondo*/
+}
+
+.blurredbackground{
+  height: 90vh;
+  position: relative;
+  top:25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 25px;
+}
+
+.margin-priciple{
+  margin-right: 9% ;
+  margin-left: 9%;
+}
+
+.logolime{
+  width:calc(667px / 3);
+  height: calc(305px / 3);
+  margin-top: 8%;
+  margin-left: 36%;
+  margin-right:36%;
+  /* display:block;
+  margin:0 auto; */ /*Con questi due cosdici mi da la possibilità di centrare automaticamnte il logo e non averer problemi, ma non riesco a distanziare il logo nella parte superiore, l'unico modo è crere un conteniotre che non si vede, ma non penso sia l'opzione più corretta*/
+}
+
+.title{
+  color: #0d0;
+  text-align:center;
+}
+
+.prenota{
+  background-color: #0d0;
+  text-align:center;
+  padding: 7px;
+  margin-bottom: 38px;
+}
+
+main{
+  color: white;
+}
+
+.subtitle{
+  display: inline-block;
+}
+
+.checkcharger{
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.one{
+  background-color: orange;
+  margin-right: 60%;
+}
+
+.two{
+  background-color: #0d0;
+  margin-right: 35%;
+}
+
+.three{
+  background-color: red;
+  margin-right: 80%;
+}
